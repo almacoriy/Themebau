@@ -1,3 +1,16 @@
-@import './components/';
+@import './utils/variables';
 @import './utils/mixins';
-@import './utils/';
+@import './utils/placeholders';
+@import './utils/hidden';
+
+@import './base/reset';
+@import './base/container';
+@import './base/section';
+
+@import './components/logo';
+@import './components/navigation';
+@import './components/social';
+
+@import './layot/header';
+
+

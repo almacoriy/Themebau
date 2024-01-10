@@ -1,0 +1,14 @@
+.nav {
+  @include centeredFlex;
+  justify-content: space-between;
+  @extend %list;
+  width: 338px;
+  margin-right: 60px;
+}
+
+.nav__link {
+  @extend %link;
+
+  @include font(500, 16px, 26px);
+  color: $secondaryFontColor;
+}

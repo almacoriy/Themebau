@@ -1,0 +1,4 @@
+.logo {
+  @extend %link;
+  @include font(500, 20px, 30px);
+}

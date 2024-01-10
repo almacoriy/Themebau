@@ -1,0 +1,12 @@
+.header {
+  background-color: $secondaryBgColor;
+}
+
+.header-container {
+  @include centeredFlex;
+}
+
+.header__logo {
+  margin-right: auto;
+  color: $secondaryFontColor;
+}

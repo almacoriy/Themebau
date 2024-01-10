@@ -1,0 +1,7 @@
+.social {
+  @include centeredFlex;
+  @extend %list;
+
+  justify-content: space-between;
+}
+
